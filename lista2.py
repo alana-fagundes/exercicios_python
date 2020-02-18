@@ -127,7 +127,7 @@ def verifica_classe_ip():
 def verifica_mes():
   mes = int(input("Insira aqui o número inteiro para verificar o mês correspondente: "))
 
-  meses_lista = [(1, '  January'), (2, 'Fevereiro'), (3, 'Março'), (4, 'Abril'), (5, 'Maio'), (6, 'Junho'), (7, 'Julho'), (8, 'Agosto'), (9, 'Setembro'), (10, 'Outubro'), (11, 'Novembro'), (12, 'Dezembro')]
+  meses_lista = [(1, '  Janeiro'), (2, 'Fevereiro'), (3, 'Março'), (4, 'Abril'), (5, 'Maio'), (6, 'Junho'), (7, 'Julho'), (8, 'Agosto'), (9, 'Setembro'), (10, 'Outubro'), (11, 'Novembro'), (12, 'Dezembro')]
   meses = dict(meses_lista)
   if mes in meses_lista:
     print(meses[mes])
